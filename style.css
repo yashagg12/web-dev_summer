@@ -1,0 +1,263 @@
+
+*{
+    margin: 0;
+     padding: 0;
+     /* border: 1px solid red; */
+     
+}
+body{
+background-color: white;
+}
+/* .a{
+    position: fixed;
+} */
+.head{
+    background-color: white;
+    padding: 0;
+    display: flex;
+}
+.head h1{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+     background-color: blue;
+    color: white; 
+    text-align: center;
+    
+}
+nav ul li{
+    display: flex;
+    text-align: center;
+}
+.container{
+background-image: url('back.jpg');
+background-repeat: no-repeat;
+height: 700px;
+background-size: cover;
+z-index: -1;
+
+}
+.logio{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    
+}
+nav ul a{
+    padding: 0 65px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 17px;
+    
+}
+nav ul a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+div B h1{
+    color: blue;
+    display: block;
+    width: 100%;
+    
+}
+td{
+    border: 0;
+}
+.in{
+display: block;
+width: 100vh;
+position: relative;
+top:120px ;
+left: 80px;
+font-size: 40px;
+}
+ .hero{
+    height: 65vh;
+    background-color: blue;
+   display: flex;
+   flex-direction: column;  
+   align-items: center;
+  justify-content: center; 
+   color:black;
+}
+ table {
+    width: 750px;
+     overflow: scroll; 
+     border: 1px solid white;
+    margin-bottom: 2rem;
+    height: 400px;
+  }  
+  .l{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 500px;
+    background-color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .b{
+    background-color: white;
+  }
+  .c{
+    margin-top: 20px;
+     font-size: 30px;
+     margin-bottom: 50px;
+  }
+  .d {
+    margin-bottom: 4rem;
+  }
+  .d h1 {
+    text-align: center;
+    margin: 4rem;
+    color: black;
+  }
+  .d .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .e {
+    box-shadow: var(--shadow);
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+  
+  .e .f {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .e .g {
+    margin: 20px;
+    color: var(--web-color);
+  }
+  
+  .e .h {
+    padding: 10px;
+    font-style: italic;
+  }
+
+  .heading2 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .contact-section {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .contact {
+    display: flex;
+    text-align: left;
+  }
+  
+  .contact > .left {
+    width: 60%;
+    background-color: blue;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .left ul {
+    padding: 0;
+  }
+  .left li {
+    align-items: flex-start;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  .left h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+  }
+  .left a {
+    margin-left: 10px;
+    font-style: italic;
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s;
+  }
+  
+  .left a:hover {
+    transform: scale(1.1);
+  }
+  
+  .contact .right form {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: blue;
+    flex-direction: column;
+    width: 350px;
+    max-width: 95vw;
+    bottom: -4.6rem;
+    position: relative;
+  }
+  
+  .contact .right form div {
+    margin-bottom: 10px;
+  }
+  .contact .right form div label {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: white;
+    font-size: small;
+  }
+  .contact .right form div input {
+    display: block;
+    width: 100%;
+    height: 40px;
+  }
+  .contact .right form div textarea {
+    display: block;
+    width: 100%;
+  }
+  .video {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+  }
+  .video > iframe {
+    max-width: 95%;
+    border-radius: 20px;
+    box-shadow: --shadow;
+  }
+  .video hr {
+    width: 100vw;
+    color: blue;
+    border: 28px solid;
+    /* position: absolute; */
+    z-index: -1;
+  }
+  .last {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .last a {
+    color: blue;
+  }
